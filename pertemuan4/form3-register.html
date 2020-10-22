@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<form action="">
+	<fieldset>
+		<legend>Register</legend>
+		<p>
+			<label>Nama :</label>
+			<input type="text" name="nama" placeholder="Nama Lengkap.."/>
+		</p>
+		<p>	
+			<label>Email:</label>
+			<input type="email" name="email" placeholder="Email kamu.."/>
+		</p>
+		<p>
+			<label>Username :</label>
+			<input type="text" name="username" placeholder="Username.."/>
+		</p>
+		<p>
+			<label>Password :</label>
+			<input type="password" name="password" placeholder="Isi Password..">
+		</p>
+		<p>
+			<label><input type="radio" name="jenis_kelamin" value="laki-laki"/>Laki-laki</label>
+			<label><input type="radio" name="jenis_kelamin" value="perempuan"/>Perempuan</label>
+		</p>
+		<p>
+			<label>Agama</label>
+			<select name="agama" id="agama">
+				<option value="islam">Islam</option>
+				<option value="kristen">Kristen</option>
+				<option value="hindu">Hindu</option>
+				<option value="budha">Budha</option>
+				<option value="dll">Etc</option>
+			</select>
+		</p>
+		<p>
+			<label>Biografi</label>
+			<textarea name="biografi" cols="20" rows="5"></textarea>
+		</p>
+		<p>
+			<label>Alamat Web :</label>
+			<input type="url" name="name" placeholder="masukkan URL Web..."/>
+		</p>
+		<p>
+			<label>Tanggal Lahir:</label>
+			<input type="date" name="tanggal"/>
+		</p>
+		<p>
+			<label>Umur :</label>
+			<input type="number" name="umur" min="7" max="80"/>
+		</p>
+		<p>
+			<input type="submit" name="submit" value="Daftar!">
+		</p>
+	</fieldset>
+	</form>
+</body>
+</html>
